@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(8, 6, 6);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/video-hosting-website-movie-streaming-260nw-709087018~2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header h3 {
+    width: 80%;
+    padding-left: 35px;
+    padding-top: 30px;
+    color: red;
+    font-size: 35px;
+}
+
+@media (max-width:700px) {
+    .header h3 {
+        font-size: 20px;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration: none;
+    border: 1px solid red;
+    background: red;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    left: 85%;
+    top: -35px;
+    cursor: pointer;
+}
+
+.head-text {
+    position: relative;
+    width: 80%;
+    color: white;
+    margin-top: 30px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+@media (max-width:700px) {
+
+    .header {
+        min-height: 65px;
+    }
+    .head-text {
+        font-size: 20px;
+    }
+}
+
+
+.head-text h1 {
+    font-size: 55px;
+    font-weight: 1500;
+}
+
+.head-text p {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+@media (max-width:700px) {
+    .head-text h1 {
+        font-size: 35px;
+    }
+}
+
+
+.head-text h4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+input[type=email] {
+    padding: 22px 160px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.btns {
+    display: inline-block;
+    padding: 17px 30px;
+    position: relative;
+    text-decoration: none;
+    border: 1px solid red;
+    background: red;
+    cursor: pointer;
+    color: white;
+    font-size: 21px;
+    left: -3px;
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+    .head-text h4 {
+        font-size: 18px;
+    }
+
+    input[type=email] {
+        padding: 20px 90px;
+    }
+
+    .btns {
+        padding: 8px 12px;
+        margin: 15px;
+    }
+}
+
+/* Netflix service section */
+
+.showcase {
+    margin: auto;
+    width: 100%;
+    margin-top: -22px;
+    color: white;
+    min-height: 10vh;
+    margin-bottom: 5%;
+    border-top: 8px solid rgb(66, 63, 63);
+}
+
+@media(max-width:700px) {
+
+    .showcase {
+        min-height: 5vh;
+    }
+}
+
+
+.row {
+    display: flex;
+}
+
+@media(max-width:700px) {
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+.show-col {
+    margin-top: 100px;
+    padding-left: 10%;
+}
+
+.show-col h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+@media(max-width:700px) {
+    .show-col h1 {
+        font-size: 35px;
+        margin-top: -75px;
+    }
+}
+
+.show-col p {
+    font-size: 30px;
+}
+
+@media(max-width:700px) {
+    .show-col p {
+        font-size: 20px;
+    }
+}
+
+.show-col img {
+    max-width: 100%;
+}
+
+@media(max-width:700px) {
+
+    .show-col img {
+        margin-top: -45px;
+    }
+}
+
+.offrow {
+    margin-top: 50px;
+    padding-left: 10%;
+    border-top: 8px solid rgb(66, 63, 63);
+    margin-bottom: 10%;
+}
+
+@media(max-width:700px) {
+
+    .offrow {
+        flex-direction: column;
+        min-height: 48vh;
+    }
+
+}
+
+.show-off-img {
+    max-width: 100%;
+    margin-top: 120px;
+    display: flex;
+}
+
+@media (max-width:700px) {
+
+
+    .show-off-img {
+        height: 300px;
+        margin-top: 220px;
+    }
+}
+
+.show-off h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 80px;
+    margin-top: -170px;
+}
+
+@media (max-width:700px) {
+
+    .show-off h1 {
+        font-size: 37px;
+        text-align: start;
+        font-weight: 600;
+        margin-top: -470px
+    }
+}
+
+.show-off p {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 300px;
+}
+
+@media(max-width:700px) {
+    .show-off p {
+        font-size: 19px;
+        text-align: start;
+        margin-right: 140px;
+    }
+
+}
+
+
+.watchrow {
+    margin-top: 200px;
+    padding-left: 10%;
+    border-top: 8px solid rgb(66, 63, 63);
+    margin-bottom: 5%;
+}
+
+.show-watch {
+    margin-top: 6%;
+    padding-bottom: 5%;
+}
+
+.show-watch h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.show-watch p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+
+.kidrow {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    border-top: 8px solid rgb(66, 63, 63);
+    margin-left: -12%;
+}
+
+@media(max-width:700px) {
+    .kidrow {
+        flex-direction: column;
+    }
+}
+
+.show-kids {
+    margin-top: 4%;
+    width: 100%;
+}
+
+.show-kids img {
+    max-width: 70%;
+    padding-left: 20%;
+}
+
+@media(max-width:700px) {
+    .show-kids img {
+        margin-top: 150px;
+        padding-left: 60px;
+    }
+}
+
+.show-kids h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 8%;
+}
+
+@media(max-width:700px) {
+    .show-kids h1 {
+        margin-top: -390px;
+        font-size: 40px;
+        padding-left: 60px;
+    }
+}
+
+.show-kids p {
+    font-size: 30px;
+}
+
+@media(max-width:700px) {
+    .show-kids p {
+        font-size: 20px;
+        padding-left: 60px;
+    }
+}
+
+
+
+/* Netlix FAQ Section */
+
+.faq {
+    color: white;
+    border-top: 8px solid rgb(66, 63, 63);
+    margin-top: -5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.faq-text h1 {
+    font-size: 50px;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+
+@media (max-width:700px) {
+    .faq-text h1 {
+        font-size: 35px;
+    }
+}
+
+.faq-text ul li {
+    border: 3px solid rgb(66, 63, 63);
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 15px 15px;
+    margin: 10px 400px;
+    list-style: none;
+    position: relative;
+    display: block;
+    background: rgb(66, 63, 63);
+    cursor: pointer;
+}
+
+.faq-text ul li {
+    font-size: 30px;
+    text-align: start;
+}
+
+@media (max-width:700px) {
+    .faq-text ul li {
+        font-size: 20px;
+        margin: 10px 35px;
+    }
+}
+
+.faq-text h4 {
+    margin-top: 5%;
+}
+
+@media (max-width:700px) {
+    .faq-text h4 {
+        font-size: 15px;
+    }
+
+    .faq-text input[type=email] {
+        padding: 20px 140px;
+    }
+
+    .faq-text .btns {
+        padding: 8px 12px;
+    }
+}
+
+
+/* Netflix footer section */
+
+.footer {
+    border-top: 8px solid rgb(66, 63, 63);
+    color: rgb(66, 63, 63);
+    text-align: center;
+}
+
+.footer h2 {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    padding: 12px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(66, 63, 63);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 12px 30px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(160, 150, 150);
+}
+
+nav ul li::after {
+    content: '';
+    display: block;
+    width: 0%;
+    background: white;
+    height: 1px;
+    position: relative;
+    margin: auto;
+    transition: 1;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
